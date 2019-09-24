@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/Project/graphic_cv_photography/library_learn/eigen/geometry.cpp
+iostream
+-
+eigen3/Eigen/Geometry
+-
+map
+-
+
