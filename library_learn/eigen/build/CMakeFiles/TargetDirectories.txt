@@ -1,3 +1,0 @@
-/home/user/Project/graphic_cv_photography/library_learn/eigen/build/CMakeFiles/edit_cache.dir
-/home/user/Project/graphic_cv_photography/library_learn/eigen/build/CMakeFiles/rebuild_cache.dir
-/home/user/Project/graphic_cv_photography/library_learn/eigen/build/CMakeFiles/eigen_geometry.dir

@@ -1,3 +1,0 @@
-/home/user/Project/graphic_cv_photography/library_learn/opencv/build/CMakeFiles/edit_cache.dir
-/home/user/Project/graphic_cv_photography/library_learn/opencv/build/CMakeFiles/rebuild_cache.dir
-/home/user/Project/graphic_cv_photography/library_learn/opencv/build/CMakeFiles/opencv_test.dir

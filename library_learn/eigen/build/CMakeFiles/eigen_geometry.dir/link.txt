@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/eigen_geometry.dir/geometry.cpp.o  -o eigen_geometry -rdynamic 
