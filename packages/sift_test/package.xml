@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>sift_test</name>
+  <version>0.0.1</version>
+  <description>sift_test</description>
+  <maintainer email="songjinxs@163.com">Thomas Schneider</maintainer>
+  <author>Song Jin</author>
+  <license>New BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>cv_bridge</build_depend>
+</package>
