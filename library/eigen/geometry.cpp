@@ -11,10 +11,11 @@
 #include <iostream>
 #include <eigen3/Eigen/Geometry>
 #include <map>
+#include <typeinfo>
 using namespace std;
 using namespace Eigen;
 
-int main()
+int test1()
 {
     map<int, vector<pair<int, Eigen::Matrix<double, 7, 1>>>> image;
     Eigen::Matrix<double, 7, 1> xyz_uv_velocity;
@@ -23,4 +24,12 @@ int main()
     image[2].emplace_back(0,  xyz_uv_velocity);
     cout << image[2].size() << endl;
     return 0;
+}
+
+int main(int argc, char** argv)
+{
+    Eigen::AngleAxis<double> as1;
+    Eigen::AngleAxis<double> as2;
+    auto as3 = as1 * as2;
+    std::cout << "the type of two eigen angleaxis multiple is " << typeid(as3).name() << std::endl;
 }
