@@ -26,10 +26,18 @@ int test1()
     return 0;
 }
 
+int test2()
+{
+    Eigen::Quaterniond test(0.653, -0.653, 0.271, -0.271);
+    auto result = test * Eigen::Vector3d(0,0,1);
+    cout << result << endl;
+}
+
 int main(int argc, char** argv)
 {
     Eigen::AngleAxis<double> as1;
     Eigen::AngleAxis<double> as2;
     auto as3 = as1 * as2;
     std::cout << "the type of two eigen angleaxis multiple is " << typeid(as3).name() << std::endl;
+    test2();
 }
